@@ -1,0 +1,42 @@
+<html>
+<head>
+	<style>
+dt {
+	font-weight: bold;
+}
+dt:after {
+	content: ":"
+}
+dd {
+	margin-left: 2em;
+}
+	</style>
+</head>
+<body>
+<div id="app">
+	<h1>{{person.name}}</h1>
+	<nested-list v-bind:content="person"></nested-list>
+</div>
+
+<script src="https://unpkg.com/vue"></script>
+<script src="../vue-nested-list.js"></script>
+<script>
+Vue.component('nested-list', VueNestedList);
+var vue = new Vue({
+  el: "#app",
+  data: {
+    person: {
+			name: "John Smith",
+			age: 25,
+			hobbies: ["coding", "swimming", "whisky"],
+			competencies: {
+				"javascript": "strong",
+				"vue.js": "good",
+				"angularjs": "poor"
+			}
+		},
+  }
+})
+</script>
+</body>
+</html>
