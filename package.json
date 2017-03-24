@@ -1,24 +1,24 @@
 {
-  "name": "vue-nested-list",
-  "version": "1.0.0",
-  "description": "Vue.js component for rendering JavaScript objects and arrays as nested HTML lists ",
-  "main": "vue-nested-list.js",
-  "scripts": {
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Polarisation/vue-nested-list.git"
-  },
-  "keywords": [
-    "vuejs",
-    " vue-component,"
-  ],
-  "author": "Justin Emery",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Polarisation/vue-nested-list/issues"
-  },
-  "homepage": "https://github.com/Polarisation/vue-nested-list#readme",
-  "devDependencies": {},
-  "dependencies": {}
+	"name": "vue-nested-list",
+	"version": "1.0.0",
+	"description": "Vue.js component for rendering JavaScript objects and arrays as nested HTML lists ",
+	"main": "vue-nested-list.js",
+	"scripts": {
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Polarisation/vue-nested-list.git"
+	},
+	"keywords": [
+		"vuejs",
+		" vue-component,"
+	],
+	"author": "Justin Emery",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Polarisation/vue-nested-list/issues"
+	},
+	"homepage": "https://github.com/Polarisation/vue-nested-list#readme",
+	"devDependencies": {},
+	"dependencies": {}
 }

@@ -20,9 +20,9 @@ Vue.component('nested-list', VueNestedList);
 Now you can use in Vue.js templates. Let's say you have `person` object defined as a property on the data object:
 ```
 var vue = new Vue({
-  el: "#app",
-  data: {
-    person: {
+	el: "#app",
+	data: {
+		person: {
 			name: "John Smith",
 			age: 25,
 			hobbies: ["coding", "swimming", "whisky"],
@@ -32,7 +32,7 @@ var vue = new Vue({
 				"angularjs": "poor"
 			}
 		},
-  }
+	}
 })
 ```
 
