@@ -87,6 +87,6 @@ dd {
 $ npm install vue-nested-list
 ```
 
-#License
+## License
 
 MIT
