@@ -36,7 +36,7 @@ let NestedDl = {
 			default: 500
 		}
 	},
-	template: 
+	template:
 		"<span v-if='Object.keys(content).length > maxLength'>[Object with {{Object.keys(content).length}} keys: too many to show]</span>"
 		+"<dl v-else>"
 		+"<template v-for='(value, key) in content'>"
@@ -62,9 +62,9 @@ let NestedList = {
 			default: 500
 		}
 	},
-	template: 
+	template:
 		"<nested-ul v-if='Object.prototype.toString.call( content ) === \"[object Array]\"' v-bind:content='content' v-bind:max-length='maxLength'></nested-ul>"
-		+"<nested-dl v-else-if='typeof content == \"object\"' v-bind:content='content' v-bind:max-length='maxLength'></nested-dl>"
+		+"<nested-dl v-else-if='typeof content === \"object\" && content !== null' v-bind:content='content' v-bind:max-length='maxLength'></nested-dl>"
 		+"<span v-else>{{content}}</span>"
 };
 
