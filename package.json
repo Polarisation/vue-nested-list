@@ -1,6 +1,6 @@
 {
 	"name": "vue-nested-list",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Vue.js component for rendering JavaScript objects and arrays as nested HTML lists ",
 	"main": "vue-nested-list.js",
 	"scripts": {
