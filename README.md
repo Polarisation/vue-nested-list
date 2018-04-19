@@ -1,4 +1,6 @@
 # vue-nested-list
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/Polarisation/vue-nested-list.svg)](https://greenkeeper.io/)
 Vue.js component for rendering JavaScript objects and arrays as nested HTML lists. This can be handy to quickly get reasonable HTML output of complex data during prototyping.
 
 The content passed into the component will be rendered as follows:
